@@ -1,3 +1,4 @@
 token.txt
 gemini_key.txt
 venv/
+.env
