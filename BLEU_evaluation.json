@@ -150,5 +150,29 @@
         "BLEU_Gemini_ZeroShot_vs_FewShot": 0.1907,
         "BLEU_ZeroShot_GPT_vs_Gemini": 0.0914,
         "BLEU_FewShot_GPT_vs_Gemini": 0.0095
+    },
+    "prompt_18": {
+        "prompt_id": "prompt_18",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_Chain": 0.1951,
+        "BLEU_Gemini_ZeroShot_vs_Chain": 0.1907,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0914,
+        "BLEU_Chain_GPT_vs_Gemini": 0.0095
+    },
+    "prompt_21": {
+        "prompt_id": "prompt_21",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_RP": 0.4838,
+        "BLEU_Gemini_ZeroShot_vs_RP": 0.2696,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.1286,
+        "BLEU_RP_GPT_vs_Gemini": 0.15
+    },
+    "prompt_22": {
+        "prompt_id": "prompt_22",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_RP": 0.1783,
+        "BLEU_Gemini_ZeroShot_vs_RP": 0.0441,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0174,
+        "BLEU_RP_GPT_vs_Gemini": 0.1597
     }
 }

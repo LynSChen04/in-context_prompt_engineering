@@ -182,7 +182,6 @@ if __name__ == '__main__':
             gemini_few_shot = value["Gemini_FewShot"]["code"] if isinstance(value["Gemini_FewShot"], dict) else value["Gemini_FewShot"]
             bleu_score = promptEvaluation(gemini_zero_shot, gemini_few_shot, lang=value["language"])
             entry["BLEU_Gemini_ZeroShot_vs_FewShot"] = round(bleu_score, 4)
-
         # GPT vs Gemini comparison
         if "GPT-4o_ZeroShot" in value and "Gemini_ZeroShot" in value:
             gpt_zero_shot = value["GPT-4o_ZeroShot"]["code"] if isinstance(value["GPT-4o_ZeroShot"], dict) else value["GPT-4o_ZeroShot"]
