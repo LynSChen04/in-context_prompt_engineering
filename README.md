@@ -67,8 +67,8 @@ Install the required dependencies:
 
 # **3. Evaluation**
 
-We used BLEU in order to evaluate the similarity between the two inputs
+We used BLEU in order to evaluate the similarity between the two inputs. However we also implemented the ability to use METEOR as an evaluation metric as well. The user can switch between the two by passing either a `B` for BLEU or `M` for METEOR. We decided to use BLEU as our metric as it gave us high level evaluation which is what we deemed to be the best.
 
 # **4. Results**
 
-The raw data consisting of 88 outputs, 2 types of prompts from the 2 models for each of the 22 problems is stored in the `data` folder. The script `main.py` was used to automate the process of generating outputs and obtain BLEU evaluations of the generated code. Our PDF report containing our analysis and outputs of notable problems as well as BLEU scores for all the problems with code outputs is the `Assignment Three.pdf` file. The output of the prompts is the `prompts_output.json` file. The BLEU evaluation scores for the outputs is the `BLEU_evaluation.json` file.
+The raw data consisting of 88 outputs, 2 types of prompts from the 2 models for each of the 22 problems. This data is stored in `complete_outputs.json`. The script `main.py` was used to automate the process of generating outputs. The script generated 76 total prompt outputs, skipping prompt 18, 21, 22 whoch were done manually.  The output of the prompts is the `prompts_output.json` file. We also used the script to obtain BLEU evaluations of the generated code. Our PDF report containing our analysis and outputs of notable problems as well as BLEU scores for all the problems with code outputs is the `Assignment Three.pdf` file. The BLEU evaluation scores for the outputs is the `BLEU_evaluation.json` file. The METEOR evaluation scores for the output is in `prompt_eval.json`.
