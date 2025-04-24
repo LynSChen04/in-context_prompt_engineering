@@ -4,7 +4,8 @@
 - [2. Getting Started](#2-getting-started)
   - [2.1 Preparations](#21-preparations)
   - [2.2 Install Packages](#22-install-packages)
-- [3. Results](#4-results)
+- [3. Evaluation](#3-evaluation)
+- [4. Results](#4-results)
 
 ---
 
@@ -63,7 +64,9 @@ Install the required dependencies:
 ```
 
 ---
+# **3. Evaluation**
 
-# **3. Results**
+We used meteor in order to evaluate the similarity between the two inputs
+# **4. Results**
 
 The raw data consisting of 88 outputs, 2 types of prompts from the 2 models for each of the 22 problems is stored in the `data` folder. The script `api_scripting.py` was used to automate the process of generating outputs. Our PDF report containing our analysis and outputs of notable problems as well as CodeBLEU scores for all the problems with code outputs is the `Assignment 3.pdf` file.
