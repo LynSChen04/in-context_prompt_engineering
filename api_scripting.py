@@ -1,25 +1,19 @@
 import os
-from openai import OpenAI
+from openai import AzureOpenAI
 from google import genai
+from dotenv import load_dotenv
 
-#GITHUB token
-with open("token.txt", "r") as file:
-    token = file.read().strip()
-os.environ["GITHUB_TOKEN"] = token
 
-client = OpenAI(
-    base_url="https://models.inference.ai.azure.com",
-    api_key=os.environ["GITHUB_TOKEN"],
-)
-
-with open("gemini_key.txt", "r") as file:
-    gemini_token = file.read().strip()
-os.environ["GEMINI_TOKEN"] = gemini_token
-
-gemini_client = genai.Client(api_key=os.environ["GEMINI_TOKEN"])
-
-#Need to use models ChatGPT (GPT-4), Claude (Anthropic), Gemini (Google), own choice
-#API for Claude costs 5 dollars
+def setUpEnviroment():
+    load_dotenv()
+    global client, gemini_client
+    
+    client = AzureOpenAI(
+        api_version=os.environ["AZURE_API"],
+        azure_endpoint=os.environ["AZURE_ENDPOINT"],
+        api_key=os.environ["AZURE_TOKEN"]
+    )
+    gemini_client = genai.Client(api_key=os.environ["GEMINI_TOKEN"])
 
 def gpt4_response(prompt, tokens=1024, temperature=0.7, role="user"):
     response = client.chat.completions.create(
@@ -38,3 +32,13 @@ def gemini_response(prompt):
         contents=prompt,
     )
     return response.text
+
+#Prompting types used: zero-shot and few-shot prompting
+
+def prompt(zero_shot_prompt, few_shot_prompt, code=""):
+    gpt4_response_1 = gpt4_response(zero_shot_prompt+code)
+    gemini_response_1 = gemini_response(zero_shot_prompt+code)
+    gpt4_response_2 = gpt4_response(few_shot_prompt+code)
+    gemini_response_2 = gemini_response(few_shot_prompt+code)
+    return [gpt4_response_1, gemini_response_1, gpt4_response_2, gemini_response_2]
+

@@ -1,0 +1,116 @@
+[
+    {
+        "prompt_id": "prompt_1",
+        "language": "Java",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.2727,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.206
+    },
+    {
+        "prompt_id": "prompt_2",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.2521,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.2719
+    },
+    {
+        "prompt_id": "prompt_3",
+        "language": "CPP",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.3489,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.1797
+    },
+    {
+        "prompt_id": "prompt_4",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.2902,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.3197
+    },
+    {
+        "prompt_id": "prompt_5",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.3617,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.0852
+    },
+    {
+        "prompt_id": "prompt_6",
+        "language": "SQL",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.3768,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.2621
+    },
+    {
+        "prompt_id": "prompt_7",
+        "language": "Java",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.407,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.0959
+    },
+    {
+        "prompt_id": "prompt_8",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.3326,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.2769
+    },
+    {
+        "prompt_id": "prompt_9",
+        "language": "Kotlin",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.3355,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.3321
+    },
+    {
+        "prompt_id": "prompt_10",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.5112,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.4944
+    },
+    {
+        "prompt_id": "prompt_11",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.4565,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.2971
+    },
+    {
+        "prompt_id": "prompt_12",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.3882,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.2771
+    },
+    {
+        "prompt_id": "prompt_13",
+        "language": "C",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.4057,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.4183
+    },
+    {
+        "prompt_id": "prompt_14",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.3042,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.3014
+    },
+    {
+        "prompt_id": "prompt_15",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.3873,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.3701
+    },
+    {
+        "prompt_id": "prompt_16",
+        "language": "Java",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.2063,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.1707
+    },
+    {
+        "prompt_id": "prompt_17",
+        "language": "CPP",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.1698,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.2073
+    },
+    {
+        "prompt_id": "prompt_19",
+        "language": "CPP",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.398,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.3959
+    },
+    {
+        "prompt_id": "prompt_20",
+        "language": "Python",
+        "meteor_GPT-4o_ZeroShot_vs_Gemini_ZeroShot": 0.205,
+        "meteor_GPT-4o_FewShot_vs_Gemini_FewShot": 0.1256
+    }
+]
