@@ -1,0 +1,116 @@
+{
+  "prompt_1": {
+    "code": "public Map < String , Integer > countWordFrequency ( List < String > words ) {\nMap < String , Integer > freqMap = new HashMap < >() ;\nfor ( String word : words ) {\nfreqMap . put ( word , freqMap . getOrDefault ( word , 0) + 1) ;\n}\nreturn freqMap ;\n}",
+    "zero_shot_prompt": "Summarize the functionality of this Java method:\n",
+    "few_shot_prompt": "This Java method when inputted [\"apple\", \"banana\", \"apple\"] returns {{\"apple\": 2, \"banana\": 1}}\n and when inputted [\"red\", \"orange\", \"yellow\", \"orange\", \"orange\"] returns {{\"red\": 1, \"orange\": 3, \"yellow\": 1}}.\n\nNow, summarize the functionality of this Java method:\n",
+    "language":"Java"
+  },
+  "prompt_2": {
+    "code": "def sum_range ( start , end ) :\ntotal = 0\nfor i in range ( start , end ) :\ntotal += i\nreturn total",
+    "zero_shot_prompt": "Fix the error in this Python method:\n",
+    "few_shot_prompt": "This Python method when inputted start = 1 and end = 5 should return 4 and when inputted start = 0 and end = 8 should return 8.\\n\\nNow, fix the error in this Python method:\n",
+    "language":"Python"
+  },
+  "prompt_3": {
+    "code": "int * getArray (int size ) {\nint arr [ size ]; // Warning : local array\nreturn arr ; // Bug: returning pointer to local variable\n}",
+    "zero_shot_prompt": "Classify the bug in this C++ method:\n",
+    "few_shot_prompt": "This C++ method when inputted size = 5 should return a pointer to an array of size 5 and when inputted size = 10 should return a pointer to an array of size 10.\\n\\nNow, classify the bug in this C++ method:\n",
+    "language":"CPP"
+  },
+  "prompt_4": {
+    "code": "def is_valid_email ( email ):\n# TODO : Complete using regex\npass",
+    "zero_shot_prompt": "Complete the TODO in this Python method using regex to validate basic email addresses:\n",
+    "few_shot_prompt": "A valid email would be abcdef@gmail.com and an invalid email would be @dfe.com.\\n\\nNow, complete the TODO in this Python method using regex to validate basic email addresses:\n",
+    "language":"Python"
+  },
+  "prompt_5": {
+    "code": "from flask import Flask , jsonify\napp = Flask ( __name__ )\n@app . route ('/ greet / < username >')\ndef greet ( username ) :\n# TODO : Return a JSON greeting\npass",
+    "zero_shot_prompt": "Complete the TODO to create a '/greet/<username>' endpoint in this Flask app that returns a JSON greeting:\\n",
+    "few_shot_prompt": "A valid endpoint would be /greet/John and the expected output would be {{\"greeting\": \"Hello, John!\"}}. Another valid endpoint would be /greet/Alicia and the expected output would be {{\"greeting\": \"Hello, Alicia!\"}}.\n\nNow, complete the TODO to create a '/greet/<username>' endpoint in this Flask app that returns a JSON greeting:\n",
+    "language":"Python"
+  },
+  "prompt_6": {
+    "code": "-- TODO : Design schema with appropriate keys and constraints\n-- Tables : users (id , name ), books (id , title ), reviews (id , user_id , book_id ,\nrating )",
+    "zero_shot_prompt": "Write the schema for a review app with users, books, and reviews: \n",
+    "few_shot_prompt": "A user with id 1 and name 'Alice' and a book with id 2 and title 'Python 101' should be able to leave a review with id 3, user_id 1, book_id 2, and rating 5.\\n\\nNow, write the schema for a review app with users, books, and reviews: \n",
+    "language":"SQL"
+  },
+  "prompt_7": {
+    "code": "public int getLength ( String s ) {\nreturn s . length () ; // What if s is null ?\n}",
+    "zero_shot_prompt": "Identify any null dereference risk in this Java method:\n",
+    "few_shot_prompt": "This Java method when inputted s = 'hello' should return 5 and when inputted s = null should throw a NullPointerException.\\n\\nNow, identify any null dereference risk in this Java method:\n",
+    "language":"Java"
+  },
+  "prompt_8": {
+    "code": "def parse_csv_line ( line ) :\nreturn line . split (',') # Incomplete : doesn't handle quoted fields",
+    "zero_shot_prompt": "Fix this parser so that it can handle quoted fields:\n",
+    "few_shot_prompt": "This parser should be able to handle lines like 'name, age, \"city, state\"' and return ['name', 'age', 'city, state'] and lines like 'name, age, city' and return ['name', 'age', 'city'].\n\nNow, fix this parser so that it can handle quoted fields:\n",
+    "language":"Python"
+  },
+  "prompt_9": {
+    "code": "data class Product ( val id : Int , val name : String , val price : Double )\n// TODO : Create GET and POST endpoints using Ktor",
+    "zero_shot_prompt": "Convert this data class to a REST API using Ktor:\n",
+    "few_shot_prompt": "A GET request to /products should return a list of products and a POST request to /products should create a new product.\\n\\nNow, convert this data class to a REST API using Ktor:\n",
+    "language":"Kotlin"
+  },
+  "prompt_10": {
+    "code": "def reverse_words ( sentence ) :\nreturn ' '. join ( sentence . split () [:: -1])",
+    "zero_shot_prompt": "Summarize this Python function:\n",
+    "few_shot_prompt": "This function should return 'world hello' when inputted 'hello world' and 'Python is great' when inputted 'great is Python'.\\n\\nNow, summarize this Python function:\n",
+    "language":"Python"
+  },
+  "prompt_11": {
+    "code": "",
+    "zero_shot_prompt": "Write a Python function that checks if a number is prime.",
+    "few_shot_prompt": "Write a Python function that checks if a number is prime. When inputted 1, it returns False, and when inputted 8 it returns True.",
+    "language":"Python"
+  },
+  "prompt_12": {
+    "code": "def factorial ( n ) :\nresult = 1\nfor i in range (1 , n ) :\nresult *= i\nreturn result",
+    "zero_shot_prompt": "Fix the bug in this Python method when 0 is inputted:\n",
+    "few_shot_prompt": "This Python method when inputted 0 should return 1 and when inputted 5 should return 120.\\n\\nNow, fix the bug in this Python method when 0 is inputted:\n",
+    "language":"Python"
+  },
+  "prompt_13": {
+    "code": "struct Node {\nint data ;\nstruct Node * next ;\n};\nvoid deleteNode ( struct Node ** head , int key ) {\n// TODO : Implement node deletion\n}",
+    "zero_shot_prompt": "Implement the TODO in this C Code to delete a node in a linked list by value:\n",
+    "few_shot_prompt": "This C Code should delete the node with value 3 from the linked list 1 -> 2 -> 3 -> 4 and return the linked list 1 -> 2 -> 4.\\n\\nNow, implement the TODO in this C Code to delete a node in a linked list by value:\n",
+    "language":"C"
+  },
+  "prompt_14": {
+    "code": "def fibonacci ( n ) :\n# TODO : Base cases and recursive call\npass",
+    "zero_shot_prompt": "Implement the TODO in this rescursive Python method to calculate Fibonacci numbers:\n",
+    "few_shot_prompt": "Implement the TODO in this rescursive Python method to calculate Fibonacci numbers. When inputted 5, it should return the sum of the method with input 4 and input 3.\\n\\nNow, implement the TODO in this rescursive Python method to calculate Fibonacci numbers:\n",
+    "language":"Python"
+  },
+  "prompt_15": {
+    "code": "class Person :\ndef __init__ ( self ) :\n# TODO : Add name , age , and optional email\npass",
+    "zero_shot_prompt": "Implement the TODO in this Python class to add name, age, and optional email:\n",
+    "few_shot_prompt": "Implement the TODO in this Python class to add name, age, and optional email. A Person object could have the name Isabella with an age of 23 and no email.\\n\\nNow, implement the TODO in this Python class to add name, age, and optional email:\n",
+    "language":"Python"
+  },
+  "prompt_16": {
+    "code": "public int binarySearch ( int [] arr , int target ) {\nint left = 0 , right = arr . length - 1;\nwhile ( left <= right ) {\nint mid = ( left + right ) / 2;\n// TODO : Compare and adjust bounds\n}\nreturn -1;\n}",
+    "zero_shot_prompt": "Implement the TODO in this Java method to perform binary search:\n",
+    "few_shot_prompt": "This Java method should return the index of the target in the array. When inputted arr = [1, 2, 3, 4, 5] and target = 3, it should return 2.\n\nNow, implement the TODO in this Java method to perform binary search:\n",
+    "language":"Java"
+  },
+  "prompt_17": {
+    "code": "// Supposed to return true if x is even\nbool isOdd (int x ) {\nreturn x % 2 == 0; // Logic contradicts function name\n}",
+    "zero_shot_prompt": "Identify the inconsistency between the name and logic in this C++ function:\n",
+    "few_shot_prompt": "When given inputs of 2, 4, or 6, it returns True. Identify the inconsistency between the name and logic in this C++ function:\n",
+    "language":"CPP"
+  },
+  "prompt_19": {
+    "code": "// Function that validates an input , calculates square , and returns result\nint process (int x ) {\nif ( x < 0) return -1;\nreturn x * x ;\n}",
+    "zero_shot_prompt": "Decompose the comment that summarizes this C++ function into logical steps:\n",
+    "few_shot_prompt": "This C++ function should return -1 when inputted -5 and return 25 when inputted 5. Decompose the comment that summarizes this C++ function into logical steps:\n",
+    "language":"CPP"
+  },
+  "prompt_20": {
+    "code": "def calculate_average ( scores ) :\ntotal = 0\n# TODO : Complete to return average\npass",
+    "zero_shot_prompt": "Complete the TODO in this Python function:\n",
+    "few_shot_prompt": "This Python function should return 85.0 when inputted [80, 90, 85] and return 75.0 when inputted [70, 80, 75].\n\nNow, complete the TODO in this Python function:\n",
+    "language":"Python"
+  }
+}
