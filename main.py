@@ -93,11 +93,11 @@ if __name__ == '__main__':
             nltk.download('wordnet')
             nltk.download('omw-1.4')
             if not Path(promptEvalfile).exists():
-                promptMeteorEvaluation(promptOutputfile)
+                promptMeteorEvaluation("complete_outputs.json")
         case 'B':
             #method to method
             # Load the prompts_output.json file
-            with open(promptOutputfile, "r") as f:
+            with open("complete_outputs.json", "r") as f:
                 data = json.load(f)
 
             # Separate data into different JSON files
