@@ -1,0 +1,154 @@
+{
+    "prompt_1": {
+        "prompt_id": "prompt_1",
+        "language": "Java",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.1717,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.2696,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.1286,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.15
+    },
+    "prompt_2": {
+        "prompt_id": "prompt_2",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.1783,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.0441,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0174,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.1597
+    },
+    "prompt_3": {
+        "prompt_id": "prompt_3",
+        "language": "CPP",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.1781,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.041,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0699,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0693
+    },
+    "prompt_4": {
+        "prompt_id": "prompt_4",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.2151,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.1069,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0149,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0442
+    },
+    "prompt_5": {
+        "prompt_id": "prompt_5",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.2901,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0889,
+        "BLEU_FewShot_GPT_vs_Gemini": 0
+    },
+    "prompt_6": {
+        "prompt_id": "prompt_6",
+        "language": "SQL",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.2714,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.0465,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0535,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.1064
+    },
+    "prompt_7": {
+        "prompt_id": "prompt_7",
+        "language": "Java",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.1829,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.0227,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0488,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0237
+    },
+    "prompt_8": {
+        "prompt_id": "prompt_8",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.1551,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.2019,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.025,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0115
+    },
+    "prompt_9": {
+        "prompt_id": "prompt_9",
+        "language": "Kotlin",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.3142,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.2134,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0256,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0272
+    },
+    "prompt_10": {
+        "prompt_id": "prompt_10",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.1311,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.2666,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.2746,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.1888
+    },
+    "prompt_11": {
+        "prompt_id": "prompt_11",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.0862,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.2151,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.1857,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.016
+    },
+    "prompt_12": {
+        "prompt_id": "prompt_12",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.2747,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.1265,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0881,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.1111
+    },
+    "prompt_13": {
+        "prompt_id": "prompt_13",
+        "language": "C",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.4869,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.331,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.1691,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.1411
+    },
+    "prompt_14": {
+        "prompt_id": "prompt_14",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.2954,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.257,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0507,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0708
+    },
+    "prompt_15": {
+        "prompt_id": "prompt_15",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.2765,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.0031,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.051,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0822
+    },
+    "prompt_16": {
+        "prompt_id": "prompt_16",
+        "language": "Java",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.4489,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 1.0,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0663,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0781
+    },
+    "prompt_17": {
+        "prompt_id": "prompt_17",
+        "language": "CPP",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.2963,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.2102,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0771,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0906
+    },
+    "prompt_19": {
+        "prompt_id": "prompt_19",
+        "language": "CPP",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.1624,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.1292,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0501,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.1492
+    },
+    "prompt_20": {
+        "prompt_id": "prompt_20",
+        "language": "Python",
+        "BLEU_GPT_ZeroShot_vs_FewShot": 0.2538,
+        "BLEU_Gemini_ZeroShot_vs_FewShot": 0.1907,
+        "BLEU_ZeroShot_GPT_vs_Gemini": 0.0914,
+        "BLEU_FewShot_GPT_vs_Gemini": 0.0095
+    }
+}
